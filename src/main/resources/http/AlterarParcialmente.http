@@ -1,0 +1,8 @@
+PATCH http://localhost:8080/api/produtos/atualizarParcial/10
+Content-Type: application/json
+
+{
+  "nome": "comida",
+ "preco": -42.0,
+  "quantidadeEstoque": 150
+}

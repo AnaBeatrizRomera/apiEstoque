@@ -1,0 +1,9 @@
+PUT http://localhost:8080/api/produtos/atualizar/11
+Content-Type: application/json
+
+{
+  "nome": "Assa de Frango",
+  "descricao": "Fran pra churrasco",
+  "preco": 16.90,
+  "quantidadeEstoque": 150
+}

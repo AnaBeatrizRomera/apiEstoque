@@ -1,0 +1,8 @@
+POST http://localhost:8080/api/produtos/inserir
+Content-Type: application/json
+
+{
+  "descricao": "Produto para importação",
+  "preco": 15.90,
+  "quantidadeEstoque": 150
+}
